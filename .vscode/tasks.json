@@ -8,7 +8,8 @@
 				"-g",
 				"-Wall",
 				"-pedantic",
-				"${file}",
+				// "${file}",
+				"*.cpp",
 				"-o",
 				"${fileDirname}\\build\\${fileBasenameNoExtension}"
 			],
